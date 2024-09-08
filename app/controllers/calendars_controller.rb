@@ -40,7 +40,7 @@ class CalendarsController < ApplicationController
       wday_num = (@todays_date + x).wday # 曜日番号（0から6）
 
       if wday_num >= 7
-      wday = wdays[wday_num] # 曜日名を取得
+      wday = wdays[wday_num]
       end
 
       days = { 
